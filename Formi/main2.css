@@ -1,0 +1,27 @@
+.principal{
+    width: 700px;
+    margin-left: 400px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border-radius: 2%;
+}
+h2{
+    color: darkorange;
+    text-align: center;
+}
+.form input{
+    width: 690px;
+}
+.botao input{
+    padding: 7px 10px;
+    background-color: green;
+    color:white;
+    border: 0;
+    border-radius: 7%;
+}
+.pais select{
+    width: 690px;
+}
+.coment textarea{
+    width: 690px;
+}

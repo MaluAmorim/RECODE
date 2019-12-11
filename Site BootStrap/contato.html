@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">
+            <img src="img/Logo.jpg" alt="Logo" style="width: 30px; height: auto;" class="d-inline-block align-top">
+            Recode Pro
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Tecnologias
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">HTML 5</a>
+                        <a class="dropdown-item" href="#">CSS</a>
+                        <a class="dropdown-item" href="#">Javascript</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Recode Pro - São Paulo</h1>
+            <p>O maior treinamento Full Stack do Brasil</p>
+            <p>Professor: Flávio Mota</p>
+        </div>
+    </div>
+
+    <div class="btn-primary">
+        <h5>Faça seu cadastro</h5>
+    </div>
+
+    <form>
+        <div class="form-row">
+            <div class="col-md-4 md-3">
+                <label for="validationDefault01">Primeiro Nome</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Flávio" required>
+            </div>
+            <div class="col-md-4 md-3">
+                <label for="validationDefault02">Sobrenome</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Mota" required>
+            </div>
+            <div class="col-md-4 md-3">
+                <label for="validationDefaultUsername">Nome de usuário</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="frecode2019"
+                        aria-describedby="inputGroupPrepend2" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-6 md-3">
+                <label for="validationDefault03">Cidade</label>
+                <input type="text" class="form-control" id="validationDefault03" placeholder="São Paulo" required>
+            </div>
+            <div class="col-md-3 md-3">
+                <label for="validationDefault04">Estado</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="SP" required>
+            </div>
+            <div class="col-md-3 md-3">
+                <label for="validationDefault05">CEP</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="02722-300" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    Aceito os termos e condições
+                </label>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar dados</button>
+    </form>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
